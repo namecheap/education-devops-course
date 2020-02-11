@@ -9,7 +9,7 @@ const server = require('http').createServer(
     }
 );
 
-const PORT = process.env.HOST ? process.env.HOST: 3000;
+const PORT = process.env.PORT ? process.env.PORT: 3000;
 const HOST = process.env.HOST ? process.env.HOST : '127.0.0.1';
 
 server.listen(PORT, HOST, () => {
