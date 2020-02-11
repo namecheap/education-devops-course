@@ -1,0 +1,1 @@
+1. Create node.js server image based on node:alpine3.10 and application from folder node_app following by instructions provided by developer.

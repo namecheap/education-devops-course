@@ -1,0 +1,7 @@
+1. Pull docker alpine:3.11.3 image to local registry.
+2. Run container based on alpine:3.11.3 in interactive console mode with "/bin/sh" parameters.
+3. Install ping (apk iputils).
+4. Ping google.com
+5. Exit from container.
+6. Commit container as image.
+7. Start new container that ping google.com.

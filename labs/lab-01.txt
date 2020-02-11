@@ -1,0 +1,5 @@
+1. Pull docker alpine:3.11 image to local registry.
+2. Pull docker alpine:3.11.3 image to local registry.
+3. Pull docker alpine:3 image to local registry.
+4. Try to delete alpine:3.11 version of image by image ID.
+5. Try to find solution how to fix this. 
