@@ -1,0 +1,2 @@
+1. Create Dockerfile for node_app from lesson-2 based on best practices for dockerfile.
+2. Add health check for cheking healthy of such container. 

@@ -1,0 +1,1 @@
+1. Run docker node_app and go_app together using docker-compose.
