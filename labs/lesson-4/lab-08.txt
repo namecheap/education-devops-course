@@ -1,0 +1,2 @@
+1. Create image based on jenkins/jenkins:latest.
+2. Create multybranch pipeline for build repository https://github.com/maltez/test.git.
