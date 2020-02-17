@@ -1,0 +1,38 @@
+version: "3.7"
+
+services: 
+  go-app:
+    image: maltez/goserver
+    ports: 
+      - "9000:9000"
+    networks: 
+      - go
+      - node
+    depends_on: 
+      - nginx
+  nginx:
+    image: nginx:latest
+    ports: 
+      - "8080:80"
+    networks: 
+      - go
+  node-app:
+    image: maltez/nodeserver:latest
+    networks: 
+      - node
+    environment: 
+      - HOST=0.0.0.0
+      - PORT=7000
+    ports: 
+      - "7000:7000"
+    depends_on: 
+      - nginx
+      - go-app
+      
+  
+
+networks: 
+  go:
+    driver: bridge
+  node:
+    driver: bridge
