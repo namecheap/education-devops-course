@@ -1,7 +1,11 @@
-1. Create container based on jenkins/jenkins:latest.
-2. Create your branch in repository https://github.com/maltez/test.git
-3. Create pipeline from this branch.
-4. Implement declarative pipeline contains 4 steps.(checkout, build, unit, integration test)
-5. Implement one step of pipline run only after broken build
-6. Add options to pipeline with dev env and input for marking the build
-7. Implement running of two last steps in parralel
+1. Up and running vault instance.
+2. Login under root token
+3. Create new policy that enable read secrets
+4. Generate new token and assign for policy for it
+5. Login under this token and read secret
+6. Login under root password and allow this user only read secrets
+7. Ensure that user can only read secrets
+8. Enable userpass method and generate user for it.
+9. Login under this user.
+10. Seal vault.
+11. Unseal vault.

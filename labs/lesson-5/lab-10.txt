@@ -1,11 +1,2 @@
-1. Up and running vault instance.
-2. Login under root token
-3. Create new policy that enable read secrets
-4. Generate new token and assign for policy for it
-5. Login under this token and read secret
-6. Login under root password and allow this user only read secrets
-7. Ensure that user can only read secrets
-8. Enable userpass method and generate user for it.
-9. Login under this user.
-10. Seal vault.
-11. Unseal vault.
+1. Create shared librarry for logging.
+2. Use logging library for pervious lab work.
