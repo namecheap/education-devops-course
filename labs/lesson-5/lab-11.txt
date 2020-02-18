@@ -1,0 +1,7 @@
+1. Create container based on jenkins/jenkins:latest.
+2. Create your branch in repository https://github.com/maltez/test.git
+3. Create pipeline from this branch.
+4. Implement declarative pipeline contains 4 steps.(checkout, build, unit, integration test)
+5. Implement one step of pipline run only after broken build
+6. Add options to pipeline with dev env and input for marking the build
+7. Implement running of two last steps in parralel

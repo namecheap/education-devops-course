@@ -1,0 +1,2 @@
+1. Create shared librarry for logging.
+2. Use logging library for pervious lab work.
