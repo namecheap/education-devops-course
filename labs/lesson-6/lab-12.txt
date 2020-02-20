@@ -1,0 +1,4 @@
+1. Create AWS S3 Bucket
+2. Upload the file
+3. Retrieve the file
+4. Delete the file and the bucket

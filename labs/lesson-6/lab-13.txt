@@ -1,0 +1,4 @@
+1. Launch a Linux Virtual Machine on EC2 Instance
+2. Define ssh key
+3. define security groups in such way that you can ping EC2
+4. Delete EC2 instance
