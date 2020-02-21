@@ -1,4 +1,4 @@
 On this lab you will get a practice in Virtual Private Cloud (VPC) with Amazon Linux EC2 Instances management and operation.
 
-During the practice we will build-up the network infrastructure similar to the one on 01.png:
+During the practice we will build-up the network infrastructure similar to the one on 01.png
 
