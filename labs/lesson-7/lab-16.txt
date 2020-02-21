@@ -1,0 +1,2 @@
+1. Install terraform on your PC
+2. Check the version of your terraform

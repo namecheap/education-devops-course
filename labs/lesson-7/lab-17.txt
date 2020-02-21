@@ -1,0 +1,4 @@
+1. Create file main.tf
+2. In file make comment
+3. Define vpc resource
+4. Run command $terraform fmt
